@@ -1,0 +1,261 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+input, button, submit { border:none; } 
+
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+    font-family: Raleway;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    background-color: black;
+}
+
+#list1 {
+    list-style: none;
+}
+
+main {
+    display: flex;
+    justify-content: flex-end;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family: Raleway;
+    letter-spacing: 3px;
+}
+
+
+.ul1 {
+    width: 100%;
+    padding-left: 0px;
+}
+
+.li1 {
+    color: white;
+    list-style: none;
+    font-size: 16px;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    z-index: 1200;
+}
+
+#logo {
+    height: 80px;
+}
+
+.container {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#div2 {
+    padding-top: 35vh;
+    padding-left: 55%;
+}
+
+#div3 {
+    padding-top: 32vh;
+    padding-left: 30%;
+}
+
+#div4 {
+    padding-left: 30%;
+}
+
+#div5 {
+    padding-top: 20vh;
+    padding-left: 5%;
+    width: 28%;
+}
+
+#div6 {
+    padding-top: 20vh;
+    padding-left: 65%;
+    width: 28%;
+}
+
+#div7 {
+    padding-top: 20vh;
+    padding-left: 5%;
+    width: 28%;
+}
+
+#div8 {
+    padding-top: 20vh;
+    padding-left: 65%;
+    width: 28%;
+}
+
+#div9 {
+    padding-top: 20vh;
+    padding-left: 5%;
+    width: 28%;
+}
+
+#div10 {
+    padding-top: 20vh;
+    padding-left: 65%;
+    width: 28%;
+}
+
+#div11 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div12 {
+    width: 44px;
+    height: 3px;
+    background-color: white;
+}
+
+
+.image1 {
+    padding: 4px;
+    height: 18%;
+    width: 18%;
+}
+
+#image2 {
+    height: 168px;
+    width: 330px;
+}
+
+i {
+    padding: 6px;
+}
+
+.link1 {
+    font-size: 14px;
+    color: black;
+    padding-left: 60px;
+}
+
+.link2 {
+    padding-left: 60px;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-ExtraLight.ttf);
+  }
+
+
+#btn1 {
+    border-radius: 24px 24px;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    background-color: transparent;
+    height: 48px;
+    min-width: 200px;
+    letter-spacing: 0.6px;
+    display: flex;
+    padding-left: 20px;
+}
+
+#btn1:hover {
+    transform: translateY(0.5px);
+    animation-name: buttonHover2;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    color: rgb(145, 198, 0);
+}
+
+#btn1:hover #text23 {
+    display: block;
+    animation-name: textHover;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.btn3 {
+    border-radius: 24px 24px;
+    border: 0.5px;
+    border-color: rgb(105, 105, 105);
+    border-style: solid;
+    color: white;
+    background-color: transparent;
+    height: 48px;
+    width: 240px;
+    margin-top: 42px;
+    animation-name: buttonStopHover;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    letter-spacing: 0.6px;
+}
+
+.btn3:hover {
+    animation-name: buttonHover;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes buttonHover {
+    from {
+        border-color: rgb(105, 105, 105);
+    }
+    to {
+        border-color: white;
+    }
+}
+
+@keyframes buttonStopHover {
+    from {
+        border-color:white;
+    }
+    to {
+        border-color: rgb(105, 105, 105);
+    }
+}
+
+@keyframes buttonHover2 {
+    from {
+        width: 210px;
+        border-color: white;
+    }
+    to {
+        width: 230px;
+        border-color: rgb(105, 105, 105);
+    }
+}
+
+@keyframes textHover {
+    from {
+        opacity: 0;
+        transform: translateX(0px) translateY(-1px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(15px) translateY(-1px);
+    }
+}
+
+button{
+    outline: none;
+    cursor: pointer;
+}
