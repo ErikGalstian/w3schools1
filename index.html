@@ -13,9 +13,10 @@
     <script src="https://kit.fontawesome.com/46dcbb0871.js"></script>
     <script src="./js/burger.js"></script>
     <script src="./js/buttons.js"></script>
+    <script src="./js/gotop.js"></script>
 </head>
 <body>
-    <main>
+    <main id="main">
         <header>
             <img id="logo" src="./img/logo.png" alt="">
             <div class="container" onclick="burgerAnimation(this)">
@@ -124,6 +125,10 @@
             <img id="image2" src="./img/logo2.png" alt="">
             <div id="div12"></div>
             <h3 id="text22">SIGN UP FOR OUR NEWSLETTER</h1>
+            <form id="form1" action="">
+                <input id="input1" type="text">
+                <input id="input2" type="button" value="SUBMIT">
+            </form>
         </div>
     </section>
 
@@ -141,5 +146,10 @@
             <a class="link1" href="">PRIVACY POLICY</a>
         </div>
     </footer>
+    <div id="div13">
+        <div id="div14">
+            <a href="#main"><i class="fas fa-chevron-up fa-3x"></i></a>
+        </div>
+    </div>
 </body>
 </html>

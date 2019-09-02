@@ -96,7 +96,7 @@
 footer {
     position: absolute;
     top: 180vh;
-    height: 13vh;
+    height: 100px;
     width: 100%;
     background-color: white;
     display: flex;

@@ -1,11 +1,12 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    scroll-behavior:smooth;
 }
 
 input, button, submit { border:none; } 
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, input {
     padding: 0;
     margin: 0;
     font-family: Raleway;
@@ -258,4 +259,63 @@ i {
 button{
     outline: none;
     cursor: pointer;
+}
+
+.fa-chevron-up{
+    color: rgb(145, 198, 0);
+    z-index: 10;
+}
+
+#div13 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#div14 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    z-index: 1;
+    visibility: hidden;
+}
+
+.arrowTopOn {
+    transition: 1s;
+    opacity: 1;
+}
+
+.arrowTopOff {
+    opacity: 0;
+}
+
+#input1 {
+    background-color: black;
+    height: 40px;
+    width: 470px;
+    margin-top: 10px;
+    border-bottom: 2px solid white;
+    color: white;
+    padding-left: 10px;
+}
+
+#input2 {
+    background-color: black;
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 380px;
+    border: 2px solid white;
+    color: white;
+}
+
+#form1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
